@@ -14,9 +14,9 @@ export const siteConfig = {
 
   // Bio text — use HTML for bold/colored text
   bio: `<p>hi hi!! i'm <b class="text-primary">blizzard</b></p> (blizz or blizzy is also okay)...
-<p>and i loveee sports, plushies and tech</p>
-<p>from the netherlands, fluent in dutch and english</p>
-<p>i'm 17 y/o, amab (he/him) and bi :3</p>`,
+<p>and i loveee <b class="text-primary">sports</b></p>, plushies and tech</p>
+<p>from the netherlands, fluent in <b class="text-primary">dutch</b></p> and english</p>
+<p>i'm <b class="text-primary">17 y/o</b></p>, amab (he/him) and bi :3</p>`,
   // Status message shown at the bottom of bio area
   statusMessage: "Currently cycling :3 (probably)",
 

@@ -58,9 +58,9 @@ export const siteConfig = {
 
   // Profile pictures shown in the carousel
   profilePics: [
-    "/pfp-1.png",
-    "/pfp-2.png",
-    "pfp-3.jpg",
+    "/A_reki_littlewave.gif",
+    "/A_reki_looklook.png",
+    "/A_reki_hugagereteddy.png",
   ],
 
   // ═══════════════════════════════════════════════════════════

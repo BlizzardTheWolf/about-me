@@ -34,25 +34,25 @@ export const siteConfig = {
   // Social links shown on the Links page
   socialLinks: [
     {
-      label: "twitter",
-      url: "https://twitter.com/yourhandle",
+      label: "github",
+      url: "https://github.com/BlizzardTheWolf",
       views: 4921,
       tag: "@Rules",
-      image: "",
+      image: "/pfp-1.png",
     },
     {
       label: "spotify",
       url: "https://open.spotify.com/user/you",
       views: 708,
       tag: "@Interests",
-      image: "",
+      image: "/pfp-2.png",
     },
     {
       label: "insta",
       url: "https://instagram.com/yourhandle",
       views: 880,
       tag: "@✨",
-      image: "",
+      image: "/pfp-3.jpg",
     },
   ],
 

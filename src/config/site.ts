@@ -13,13 +13,13 @@ export const siteConfig = {
   websiteUrl: "www.purplepanda.cc",
 
   // Bio text — use HTML for bold/colored text
-  bio: `hi hi!! i'm <b class="text-primary">YourName</b> !! i'm <b class="text-primary">17 y/o</b>, 
+  bio: `hi hi!! i'm <b class="text-primary">blizzard (blizz or blizzy is also okay)</b>, i'm <b class="text-primary">17 y/o</b> and 
   i loveee sports and plushies 🧷
   i speak eng/dutch
   i'm amab (he/him) and bi`,
 
   // Status message shown at the bottom of bio area
-  statusMessage: "Currently cycling :D (probably)",
+  statusMessage: "Currently cycling :3 (probably)",
 
   // Navigation links in the menu bar — href maps to routes
   navLinks: [
@@ -69,27 +69,27 @@ export const siteConfig = {
 
   pages: {
     rules: {
-      title: "Rules",
+      title: "basic dni and rules",
       emoji: "📜",
       items: [
-        "Don't repost my art without credit",
-        "Be respectful in comments",
-        "No spam or self-promo",
-        "Ask before using my content commercially",
-        "Have fun and be kind~ 💛",
+        "no under 14",
+        "no homophobic, racist, antifur etc",
+        "be respectful :3",
+        "ask for dm pls",
+        "be kind~ 💜",
       ],
     },
     interests: {
       title: "Interests",
       emoji: "✨",
       items: [
-        "Coding & web development",
-        "Digital art & illustration",
-        "Cats 🐱",
-        "Anime & manga",
-        "Music production",
-        "Gaming (RPGs & indie)",
-        "Photography",
+        "furry :3",
+        "sports (triathlon)",
+        "computers && servers",
+        "music; basically all genres",
+        "",
+        "",
+        "photography",
       ],
     },
     preferences: {

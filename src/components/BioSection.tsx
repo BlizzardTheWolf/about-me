@@ -4,17 +4,9 @@ import pawPrints from "@/assets/paw-prints.png";
 
 const BioSection = () => {
   const [picIndex, setPicIndex] = useState(0);
-  const now = new Date();
-  const time = now.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
 
   return (
     <div className="p-4">
-      {/* Live indicator */}
-      <div className="flex items-center gap-2 mb-3 text-sm">
-        <span className="w-2 h-2 rounded-full bg-accent inline-block animate-pulse" />
-        <span className="font-retro text-foreground">Live • {time}</span>
-      </div>
-
       <div className="flex flex-col sm:flex-row gap-4">
         {/* Paw decoration */}
         <div className="flex-shrink-0 w-32 h-32 flex items-center justify-center">
@@ -60,16 +52,6 @@ const BioSection = () => {
       {/* Status */}
       <div className="mt-4 border-t border-border pt-3">
         <p className="text-sm text-foreground italic">{siteConfig.statusMessage}</p>
-        <p className="text-xs text-accent font-bold mt-1">{siteConfig.viewerText}</p>
-      </div>
-
-      {/* Action buttons */}
-      <div className="flex gap-3 mt-3">
-        {siteConfig.actions.map((action) => (
-          <button key={action.label} className="retro-btn flex items-center gap-1.5 text-foreground">
-            {action.label} <span>{action.emoji}</span>
-          </button>
-        ))}
       </div>
     </div>
   );

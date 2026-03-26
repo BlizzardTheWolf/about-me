@@ -21,31 +21,23 @@ export const siteConfig = {
   // Status message shown at the bottom of bio area
   statusMessage: "Currently vibing and building cool stuff ✨",
 
-  // Navigation links in the menu bar
+  // Navigation links in the menu bar — href maps to routes
   navLinks: [
-    { label: "Home", href: "#home" },
-    { label: "Rules", href: "#rules" },
-    { label: "Interests", href: "#interests" },
-    { label: "Preferences", href: "#preferences" },
-    { label: "Links", href: "#links" },
-    { label: "Bookmarks", href: "#bookmarks" },
+    { label: "Home", href: "/" },
+    { label: "Rules", href: "/rules" },
+    { label: "Interests", href: "/interests" },
+    { label: "Preferences", href: "/preferences" },
+    { label: "Links", href: "/links" },
+    { label: "Bookmarks", href: "/bookmarks" },
   ],
 
-  // Action buttons (like, reply, share)
-  actions: [
-    { label: "Like", emoji: "💛" },
-    { label: "Reply", emoji: "💬" },
-    { label: "Share", emoji: "🔗" },
-  ],
-
-  // Social links shown as cards at the bottom
+  // Social links shown on the Links page
   socialLinks: [
     {
       label: "twitter",
       url: "https://twitter.com/yourhandle",
       views: 4921,
       tag: "@Rules",
-      // Replace with your own image URL or import
       image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=300&h=200&fit=crop",
     },
     {
@@ -71,6 +63,57 @@ export const siteConfig = {
     "https://images.unsplash.com/photo-1495360010541-f48722b34f7d?w=100&h=100&fit=crop",
   ],
 
-  // Viewer count text
-  viewerText: "0 users watching live",
+  // ═══════════════════════════════════════════════════════════
+  // 📄 PAGE CONTENT — Edit the content for each page below
+  // ═══════════════════════════════════════════════════════════
+
+  pages: {
+    rules: {
+      title: "Rules",
+      emoji: "📜",
+      items: [
+        "Don't repost my art without credit",
+        "Be respectful in comments",
+        "No spam or self-promo",
+        "Ask before using my content commercially",
+        "Have fun and be kind~ 💛",
+      ],
+    },
+    interests: {
+      title: "Interests",
+      emoji: "✨",
+      items: [
+        "Coding & web development",
+        "Digital art & illustration",
+        "Cats 🐱",
+        "Anime & manga",
+        "Music production",
+        "Gaming (RPGs & indie)",
+        "Photography",
+      ],
+    },
+    preferences: {
+      title: "Preferences",
+      emoji: "💫",
+      items: [
+        "☕ Coffee over tea",
+        "🌙 Night owl",
+        "🎨 Dark mode everything",
+        "📖 Manga > anime",
+        "🎵 Lo-fi & city pop",
+        "🐱 Cats > dogs (sorry)",
+      ],
+    },
+    bookmarks: {
+      title: "Bookmarks",
+      emoji: "🔖",
+      items: [
+        { label: "MDN Web Docs", url: "https://developer.mozilla.org" },
+        { label: "Dribbble", url: "https://dribbble.com" },
+        { label: "Are.na", url: "https://www.are.na" },
+        { label: "Coolors palette generator", url: "https://coolors.co" },
+        { label: "Unsplash", url: "https://unsplash.com" },
+      ],
+    },
+  },
 };

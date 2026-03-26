@@ -10,7 +10,7 @@ const BioSection = () => {
       <div className="flex flex-col sm:flex-row gap-4">
         {/* Paw decoration */}
         <div className="flex-shrink-0 w-32 h-32 flex items-center justify-center">
-          <img src={pawPrints} alt="decorative paws" width={128} height={128} className="opacity-80" />
+          <img src=/paws.gif alt="decorative paws" width={128} height={128} className="opacity-80" />
         </div>
 
         {/* Bio content */}

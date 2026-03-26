@@ -58,9 +58,9 @@ export const siteConfig = {
 
   // Profile pictures shown in the carousel
   profilePics: [
-    "https://images.unsplash.com/photo-1574158622682-e40e69881006?w=100&h=100&fit=crop",
-    "https://images.unsplash.com/photo-1526336024174-e58f5cdd8e13?w=100&h=100&fit=crop",
-    "https://images.unsplash.com/photo-1495360010541-f48722b34f7d?w=100&h=100&fit=crop",
+    "/pfp-1.png",
+    "/pfp-2.png",
+    "pfp-3.jpg",
   ],
 
   // ═══════════════════════════════════════════════════════════

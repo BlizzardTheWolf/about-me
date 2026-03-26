@@ -18,7 +18,7 @@ i loveee <b class="text-primary">sports</b>, plushies and tech<br>
 from the netherlands, fluent in <b class="text-primary">dutch</b> and english<br>
 <b class="text-primary">17 y/o</b>, amab (he/him) and bi :3`,
   // Status message shown at the bottom of bio area
-  statusMessage: "Currently cycling :3 (probably)",
+  statusMessage: "Based in the Netherlands 🇳🇱",
 
   // Navigation links in the menu bar — href maps to routes
   navLinks: [
@@ -40,14 +40,14 @@ from the netherlands, fluent in <b class="text-primary">dutch</b> and english<br
       image: "/pfp-1.png",
     },
     {
-      label: "spotify",
-      url: "https://open.spotify.com/user/you",
+      label: "last.fm",
+      url: "https://www.last.fm/user/blizzthewolf",
       views: 708,
       tag: "@Interests",
       image: "/pfp-2.png",
     },
     {
-      label: "insta",
+      label: "discord",
       url: "https://instagram.com/yourhandle",
       views: 880,
       tag: "@✨",
@@ -84,7 +84,7 @@ from the netherlands, fluent in <b class="text-primary">dutch</b> and english<br
       items: [
         "furry :3",
         "sports (triathlon and cycling <3)",
-        "computers && servers",
+        "computers && servers (homelabbing)",
         "music; basically all genres",
         "photography",
         "animals",
@@ -94,12 +94,12 @@ from the netherlands, fluent in <b class="text-primary">dutch</b> and english<br
       title: "Preferences",
       emoji: "💫",
       items: [
-        "☕ Coffee over tea",
-        "🌙 Night owl",
-        "🎨 Dark mode everything",
-        "📖 Manga > anime",
-        "🎵 Lo-fi & city pop",
-        "🐱 Cats > dogs (sorry)",
+        "he/him ミ★",
+        "long z2 rides >> threshold :3",
+        "pls talk to me *before* dm'ing :)",
+        "docker for EVERYTHING",
+        "tails > paws or maws シ",
+        "never too many plushies",
       ],
     },
     bookmarks: {

@@ -13,9 +13,9 @@ export const siteConfig = {
   websiteUrl: "www.purplepanda.cc",
 
   // Bio text — use HTML for bold/colored text
-  bio: `<p>hi hi!! i'm <b class="text-primary">blizzard...</b></p>
-<p>i speak eng/dutch</p>
-<p>i'm amab (he/him) and bi</p>`,
+  bio: `<p>hi hi!! i'm <b class="text-primary">blizzard</b></p> (blizz or blizzy is also okay)...
+<p>and i loveee sports, plushies and tech, i speak eng/dutch</p>
+<p>i'm amab (he/him) and bi :3</p>`,
   // Status message shown at the bottom of bio area
   statusMessage: "Currently cycling :3 (probably)",
 

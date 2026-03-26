@@ -47,6 +47,11 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        "window-title": "hsl(var(--window-title))",
+        "window-border": "hsl(var(--window-border))",
+        "window-btn-close": "hsl(var(--window-btn-close))",
+        "window-btn-min": "hsl(var(--window-btn-min))",
+        "window-btn-info": "hsl(var(--window-btn-info))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",

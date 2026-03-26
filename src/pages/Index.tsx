@@ -1,16 +1,23 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { siteConfig } from "@/config/site";
+import RetroWindow from "@/components/RetroWindow";
+import NavBar from "@/components/NavBar";
+import BioSection from "@/components/BioSection";
+import SocialLinks from "@/components/SocialLinks";
+import pawBg from "@/assets/paw-bg.png";
 
-// IMPORTANT: Fully REPLACE this with your own code
-const PlaceholderIndex = () => {
-  // PLACEHOLDER: Replace this entire return statement with the user's app.
-  // The inline background color is intentionally not part of the design system.
+const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center" style={{ backgroundColor: '#fcfbf8' }}>
-      <img data-lovable-blank-page-placeholder="REMOVE_THIS" src="/placeholder.svg" alt="Your app will live here!" />
+    <div
+      className="min-h-screen flex items-center justify-center p-4"
+      style={{ backgroundImage: `url(${pawBg})`, backgroundRepeat: "repeat", backgroundSize: "200px" }}
+    >
+      <RetroWindow title={siteConfig.windowTitle}>
+        <NavBar />
+        <BioSection />
+        <SocialLinks />
+      </RetroWindow>
     </div>
   );
 };
-
-const Index = PlaceholderIndex;
 
 export default Index;

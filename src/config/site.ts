@@ -4,22 +4,22 @@
 
 export const siteConfig = {
   // Your display name / username
-  username: "@yourname",
+  username: "@blizzthewolf",
 
   // Window title shown in the title bar
   windowTitle: "Virtual PC Console",
 
   // Your website URL (shown in the bio)
-  websiteUrl: "www.AboutYou.com",
+  websiteUrl: "www.purplepanda.cc",
 
   // Bio text — use HTML for bold/colored text
-  bio: `hii~ i'm <b class="text-primary">YourName</b> !! i'm <b class="text-primary">20 y/o</b>, 
-  i love coding and cats 🐱 
-  i speak eng/日本語 
-  i'm a ♍ virgo, infp`,
+  bio: `hi hi!! i'm <b class="text-primary">YourName</b> !! i'm <b class="text-primary">17 y/o</b>, 
+  i loveee sports and plushies 🧷
+  i speak eng/dutch
+  i'm amab (he/him) and bi`,
 
   // Status message shown at the bottom of bio area
-  statusMessage: "Currently vibing and building cool stuff ✨",
+  statusMessage: "Currently cycling :D (probably)",
 
   // Navigation links in the menu bar — href maps to routes
   navLinks: [

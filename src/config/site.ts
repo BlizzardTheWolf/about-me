@@ -83,12 +83,11 @@ from the netherlands, fluent in <b class="text-primary">dutch</b> and english<br
       emoji: "✨",
       items: [
         "furry :3",
-        "sports (triathlon)",
+        "sports (triathlon and cycling <3)",
         "computers && servers",
         "music; basically all genres",
-        "",
-        "",
         "photography",
+        "animals",
       ],
     },
     preferences: {

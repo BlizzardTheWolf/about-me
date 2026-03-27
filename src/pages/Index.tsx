@@ -4,7 +4,7 @@ import SocialLinks from "@/components/SocialLinks";
 
 const Index = () => {
   return (
-    <PageLayout>
+    <PageLayout showPaws={false}>
       <BioSection />
       <SocialLinks />
     </PageLayout>

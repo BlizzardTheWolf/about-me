@@ -6,9 +6,31 @@ import pawBg from "@/assets/paw-bg.png";
 
 interface PageLayoutProps {
   children: ReactNode;
+  showPaws?: boolean;
 }
 
-const PageLayout = ({ children }: PageLayoutProps) => {
+const PageLayout = ({ children, showPaws = true }: PageLayoutProps) => {
+  return (
+    <div
+      className="min-h-screen flex items-center justify-center p-4"
+      style={{ backgroundImage: `url(${pawBg})`, backgroundRepeat: "repeat", backgroundSize: "200px" }}
+    >
+      <RetroWindow title={siteConfig.windowTitle}>
+        <NavBar />
+        <div className="relative">
+          {children}
+          {showPaws && (
+            <img
+              src="/paws.gif"
+              alt="decorative paws"
+              className="absolute bottom-2 right-2 w-32 h-32 opacity-80 rotate-180 pointer-events-none"
+            />
+          )}
+        </div>
+      </RetroWindow>
+    </div>
+  );
+};
   return (
     <div
       className="min-h-screen flex items-center justify-center p-4"

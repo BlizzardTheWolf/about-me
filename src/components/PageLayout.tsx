@@ -6,9 +6,10 @@ import pawBg from "@/assets/paw-bg.png";
 
 interface PageLayoutProps {
   children: ReactNode;
+  showPaws?: boolean;
 }
 
-const PageLayout = ({ children }: PageLayoutProps) => {
+const PageLayout = ({ children, showPaws = true }: PageLayoutProps) => {
   return (
     <div
       className="min-h-screen flex items-center justify-center p-4"
@@ -18,11 +19,13 @@ const PageLayout = ({ children }: PageLayoutProps) => {
         <NavBar />
         <div className="relative">
           {children}
-          <img
-            src="/paws.gif"
-            alt="decorative paws"
-            className="absolute bottom-2 right-2 w-20 h-20 opacity-70 rotate-180 pointer-events-none"
-          />
+          {showPaws && (
+            <img
+              src="/paws.gif"
+              alt="decorative paws"
+              className="absolute bottom-2 right-2 w-32 h-32 opacity-80 rotate-180 pointer-events-none"
+            />
+          )}
         </div>
       </RetroWindow>
     </div>

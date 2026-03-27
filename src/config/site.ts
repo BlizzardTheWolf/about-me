@@ -18,7 +18,7 @@ i loveee <b class="text-primary">sports</b>, plushies and tech<br>
 from the netherlands, fluent in <b class="text-primary">dutch</b> and english<br>
 <b class="text-primary">17 y/o</b>, amab (he/him) and bi :3`,
   // Status message shown at the bottom of bio area
-  statusMessage: "Your value doesn’t decrease just because of someones inability to see your worth, even if that person is you. જ⁀➴",
+  statusMessage: "Your value doesn’t decrease just because of someones inability to see your worth, even if that person is you. ｡◕‿‿◕｡",
 
   // Navigation links in the menu bar — href maps to routes
   navLinks: [

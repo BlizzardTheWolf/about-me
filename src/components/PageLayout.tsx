@@ -30,8 +30,8 @@ const PageLayout = ({ children, showPaws = true }: PageLayoutProps) => {
       </RetroWindow>
     </div>
   );
-};
-  return (
+
+export default PageLayout;
     <div
       className="min-h-screen flex items-center justify-center p-4"
       style={{ backgroundImage: `url(${pawBg})`, backgroundRepeat: "repeat", backgroundSize: "200px" }}

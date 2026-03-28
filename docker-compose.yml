@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+  frontend:
+    build: .
+    ports:
+      - "8080:80"
+    depends_on:
+      - auth
+
+  auth:
+    build: ./auth-server
+    environment:
+      - JWT_SECRET=${JWT_SECRET:-change-me-in-production}
+      - PASSWORD_HASH=${PASSWORD_HASH}
+    expose:
+      - "3001"

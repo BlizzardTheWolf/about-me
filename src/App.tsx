@@ -9,6 +9,7 @@ import InterestsPage from "./pages/InterestsPage";
 import PreferencesPage from "./pages/PreferencesPage";
 import LinksPage from "./pages/LinksPage";
 import BookmarksPage from "./pages/BookmarksPage";
+import PrivatePage from "./pages/PrivatePage";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -26,6 +27,7 @@ const App = () => (
           <Route path="/preferences" element={<PreferencesPage />} />
           <Route path="/links" element={<LinksPage />} />
           <Route path="/bookmarks" element={<BookmarksPage />} />
+          <Route path="/private" element={<PrivatePage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

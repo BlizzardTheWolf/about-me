@@ -28,6 +28,7 @@ from the netherlands, fluent in <b class="text-primary">dutch</b> and english<br
     { label: "Preferences", href: "/preferences" },
     { label: "Links", href: "/links" },
     { label: "Bookmarks", href: "/bookmarks" },
+    { label: "Private", href: "/private" },
   ],
 
   // Social links shown on the Links page
@@ -111,6 +112,14 @@ from the netherlands, fluent in <b class="text-primary">dutch</b> and english<br
         { label: "my dream (ironman)", url: "https://www.ironman.com/" },
         { label: "some nice pics i made", url: "https://files.purplepanda.cc/share/7l2Yr7DK" },
         { label: "cool game", url: "https://game.chronodivide.com/" },
+      ],
+    },
+    private: {
+      title: "Private",
+      emoji: "🔓",
+      items: [
+        "hey, welcome to my private page! :3",
+        "add your personal content here~",
       ],
     },
   },

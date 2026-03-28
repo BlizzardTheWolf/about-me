@@ -4,7 +4,7 @@ const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 
 const app = express();
-const PORT = process.env.AUTH_PORT || 3001;
+const PORT = process.env.AUTH_PORT || 8086;
 const JWT_SECRET = process.env.JWT_SECRET || "change-me-in-production";
 const PASSWORD_HASH = process.env.PASSWORD_HASH; // bcrypt hash of the password
 

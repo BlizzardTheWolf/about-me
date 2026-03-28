@@ -114,5 +114,13 @@ from the netherlands, fluent in <b class="text-primary">dutch</b> and english<br
         { label: "cool game", url: "https://game.chronodivide.com/" },
       ],
     },
+    private: {
+      title: "Private",
+      emoji: "🔓",
+      items: [
+        "hey, welcome to my private page! :3",
+        "add your personal content here~",
+      ],
+    },
   },
 };

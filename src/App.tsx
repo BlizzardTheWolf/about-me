@@ -27,6 +27,7 @@ const App = () => (
           <Route path="/preferences" element={<PreferencesPage />} />
           <Route path="/links" element={<LinksPage />} />
           <Route path="/bookmarks" element={<BookmarksPage />} />
+          <Route path="/private" element={<PrivatePage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

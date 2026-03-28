@@ -28,6 +28,7 @@ from the netherlands, fluent in <b class="text-primary">dutch</b> and english<br
     { label: "Preferences", href: "/preferences" },
     { label: "Links", href: "/links" },
     { label: "Bookmarks", href: "/bookmarks" },
+    { label: "Private", href: "/private" },
   ],
 
   // Social links shown on the Links page

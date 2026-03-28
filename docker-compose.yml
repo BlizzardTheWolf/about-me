@@ -14,4 +14,4 @@ services:
       - JWT_SECRET=${JWT_SECRET:-change-me-in-production}
       - PASSWORD_HASH=${PASSWORD_HASH}
     expose:
-      - "3001"
+      - "8086"
